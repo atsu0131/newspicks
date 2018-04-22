@@ -43,18 +43,18 @@ Things you may want to cover:
 - has_many :favorites
 - has_many :articles
 
-##followersテーブル
+## followersテーブル
 |Column|Type|Options|
-|------|--------------|-------|
+|------|--------------|------------|
 |user_id|integer|null: false, foreign_key: true|
 |name|string|null: false, foreign_key: true|
 
 ### Association
 - belong_to :users
 
-##articleテーブル
+## articleテーブル
 |Column|Type|Options|
-|------|--------------|-------|
+|------|--------------|------------|
 |user_id|integer|null: false, foreign_key: true|
 |article|text|index: true|
 
@@ -64,7 +64,7 @@ Things you may want to cover:
 
 ## messagesテーブル
 |Column|Type|Options|
-|------|---------------|-------|
+|------|---------------|-----------|
 |user_id|integer|null: false, foreign_key: true|
 |body|text||
 
@@ -72,9 +72,9 @@ Things you may want to cover:
 - belong_to :users
 - belong_to :article
 
-##favoritesテーブル
+## favoritesテーブル
 |Column|Type|Options|
-|------|---------------|-------|
+|------|---------------|-----------|
 |user_id|integer|null: false, foreign_key: true|
 |favorites|integer|index: true|
 
@@ -82,9 +82,9 @@ Things you may want to cover:
 - belong_to :users
 - has_many :articles
 
-##categoriesテーブル
+## categoriesテーブル
 |Column|Type|Options|
-|------|---------------|-------|
+|------|---------------|-----------|
 |user_id|integer|null: false, foreign_key: true|
 |categories|integer|index: true|
 
