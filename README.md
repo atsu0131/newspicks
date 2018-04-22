@@ -30,7 +30,7 @@ Things you may want to cover:
 |Column|Type|Options|
 |------|--------------|-------|
 |user_id|integer|null: false, foreign_key: true|
-|name|string||
+|name|string|null: false, foreign_key: true|
 |email|string|index: true, null: false|
 |company|string||
 |position|string||
@@ -39,17 +39,28 @@ Things you may want to cover:
 
 ### Association
 - has_many :messages
+- has_many :followers
+- has_many :favorites
+- has_many :articles
 
-##folowersテーブル
+##followersテーブル
 |Column|Type|Options|
 |------|--------------|-------|
 |user_id|integer|null: false, foreign_key: true|
+|name|string|null: false, foreign_key: true|
+
+### Association
+- belong_to :users
 
 ##articleテーブル
 |Column|Type|Options|
 |------|--------------|-------|
+|user_id|integer|null: false, foreign_key: true|
+|article|text|index: true|
 
-
+### Association
+- belong_to :users
+- belong_to :caregories
 
 ## messagesテーブル
 |Column|Type|Options|
@@ -57,7 +68,26 @@ Things you may want to cover:
 |user_id|integer|null: false, foreign_key: true|
 |body|text||
 
-##favoriteテーブル
+### Association
+- belong_to :users
+- belong_to :article
+
+##favoritesテーブル
+|Column|Type|Options|
+|------|---------------|-------|
+|user_id|integer|null: false, foreign_key: true|
+|favorites|integer|index: true|
+
+### Association
+- belong_to :users
+- has_many :articles
 
 ##categoriesテーブル
+|Column|Type|Options|
+|------|---------------|-------|
+|user_id|integer|null: false, foreign_key: true|
+|categories|integer|index: true|
+
+### Association
+- has_many :articles
 
