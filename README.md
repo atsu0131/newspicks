@@ -50,7 +50,7 @@ Things you may want to cover:
 |name|string|null: false, foreign_key: true|
 
 ### Association
-- belong_to :users
+- belongs_to :user
 
 ## articleテーブル
 |Column|Type|Options|
@@ -59,8 +59,8 @@ Things you may want to cover:
 |article|text|index: true|
 
 ### Association
-- belong_to :users
-- belong_to :caregories
+- belongs_to :user
+- belongs_to :caregory
 
 ## messagesテーブル
 |Column|Type|Options|
@@ -69,8 +69,8 @@ Things you may want to cover:
 |body|text||
 
 ### Association
-- belong_to :users
-- belong_to :article
+- belongs_to :user
+- belongs_to :article
 
 ## favoritesテーブル
 |Column|Type|Options|
@@ -79,7 +79,7 @@ Things you may want to cover:
 |favorites|integer|index: true|
 
 ### Association
-- belong_to :users
+- belongs_to :user
 - has_many :articles
 
 ## categoriesテーブル
