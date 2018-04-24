@@ -34,7 +34,7 @@ Things you may want to cover:
 |email|string|index: true, null: false|
 |company|string||
 |position|string||
-|profile|string||
+|profile|text||
 |icon|text||
 
 ### Association
