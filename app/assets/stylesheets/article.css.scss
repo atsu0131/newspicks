@@ -1,3 +1,77 @@
-// Place all the styles related to the article controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+div {
+    display: block;
+}
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+nav{
+height: 50px;
+}
+
+.all{
+height:100%;
+width:100%;
+}
+
+.header {
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    background-color:#15274D;
+}
+
+.open-menu{
+background-color:black;
+height:30px;
+width:80px;
+display: inline-block;
+}
+
+
+.search-wrapper{
+background-color:yellow;
+height:30px;
+width:80px;
+display: inline-block;
+}
+.search{
+height: 50px;
+width:80px;
+display: inline-block;
+}
+
+#global-search-box{
+height: 50px;
+width:80px;
+}
+
+.follower{
+margin-top:50px;
+background-color:red;
+height:1000px;
+width:300px;
+float:left;
+}
+
+.pickup{
+margin-top:50px;
+background-color:blue;
+height:300px;
+width: calc( 100% - 300px );
+float:right;
+}
+
+.article{
+background-color:green;
+height:300px;
+width:630px;
+width: calc( 100% - 300px );
+float:right;
+}
+
