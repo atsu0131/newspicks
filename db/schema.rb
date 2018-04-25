@@ -14,9 +14,9 @@
 ActiveRecord::Schema.define(version: 20180424130253) do
 
   create_table "users", force: :cascade do |t|
-    t.integer  "user_id",    limit: 4
-    t.string   "name",       limit: 255
-    t.string   "email",      limit: 255
+    t.integer  "user_id",    limit: 4,     null: false
+    t.string   "name",       limit: 255,   null: false
+    t.string   "email",      limit: 255,   null: false
     t.string   "company",    limit: 255
     t.string   "position",   limit: 255
     t.text     "profile",    limit: 65535
@@ -24,5 +24,7 @@ ActiveRecord::Schema.define(version: 20180424130253) do
     t.datetime "created_at",               null: false
     t.datetime "updated_at",               null: false
   end
+
+  add_index "users", ["email"], name: "index_users_on_email", using: :btree
 
 end
