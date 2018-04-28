@@ -11,7 +11,29 @@ body {
 }
 
 nav{
-height: 50px;
+height: 30px;
+}
+
+ul li{
+    display: inline-block;
+    height: 10px;
+}
+
+input{
+    height: 200px;
+}
+
+.logo{
+
+    color:white;
+}
+
+.margin{
+    width:200px;
+}
+
+.customer{
+    color:white;
 }
 
 .all{
@@ -27,17 +49,18 @@ width:100%;
 }
 
 .open-menu{
-background-color:black;
+color:white;
 height:30px;
 width:80px;
 display: inline-block;
+margin: 0px,50px,0px,0px;
 }
 
 
 .search-wrapper{
-background-color:yellow;
-height:30px;
-width:80px;
+float:left;
+height:50px;
+width:150px;
 display: inline-block;
 }
 .search{
@@ -53,15 +76,44 @@ width:80px;
 
 .follower{
 margin-top:50px;
-background-color:red;
 height:1000px;
 width:300px;
 float:left;
 }
 
+.username{
+width:180px;
+height:100px;
+margin-top:50px;
+margin-left:50px;
+background-color:red;
+}
+
+.user-follow{
+width:150px;
+height:100px;
+margin-top:50px;
+background-color:red;
+float:left;
+display: inline-block;
+}
+
+.user-folower{
+width:150px;
+height:100px;
+margin-top:50px;
+float:left;
+background-color:green;
+display: inline-block;
+}
+
+.user-news{
+width:300px;
+height:150px;
+}
+
 .pickup{
 margin-top:50px;
-background-color:blue;
 height:300px;
 width: calc( 100% - 300px );
 float:right;
@@ -75,3 +127,13 @@ width: calc( 100% - 300px );
 float:right;
 }
 
+
+
+.clearfix::after {
+height: 50px;
+width: 100%;
+background-color:#15274D;
+content: '';
+display: block;
+clear: both;
+}
