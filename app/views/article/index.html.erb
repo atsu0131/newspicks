@@ -22,16 +22,34 @@
 
       </div>
         <aside class="follower">
-        <div class="username">tanaka taro</div>
-        <span class="user-follow">フォロー</span>
-        <span class="user-folower">フォロワー</span>
+        <div class="username">
+          <span class="human"><%= image_tag 'human.jpeg' %>
+        <img src="/assets/images/human.jpeg" alt="" ></span><p>taro tanaka</p></div>
+        <span class="user-follow"><p>フォロー</p></span>
+        <span class="user-folower"><p>フォロワー</p></span>
         <div class="user-news">お気に入りのニュース</div>
         </aside>
         </div>
-        <div class="pickup">トップニュース
-          <img src="/images/topnews.jpeg" alt="" height="500px" width="600px">
+        <div class="pickup">
+          <%= image_tag 'topnews.jpeg' %>
+        <img src="/assets/images/topnews.jpeg" alt="" height="500px" width="600px">
         </div>
-        <div class="article">個別のニュース
+        <div class="article">
+          <span class="article-left"><span class="article-left-detail"><span class="article-left-detail-image">
+            <%= image_tag 'business.jpeg' %>
+        <img src="/assets/images/business.jpeg" alt="" ></span>大手銀行で手数料の引き上げ相次ぐ
+ 中田 晃博
+ビジネスドリブン系 ビジネスデザイナー
+以前はフリーマーケットに出店していたので両替が重要でしたが、
+今はメルカリのおかげで全く両替することがなく…</span></span>
+          <span class="article-right"><span class="article-right-detail"><span class="article-right-detail-image">
+        <%= image_tag 'business.jpeg' %>
+        <img src="/assets/images/business.jpeg" alt="" ></span>巨大！アメリカの｢株式時価総額｣トップ100
+岡村 聡
+S&S investments 代表取締役
+時価総額の大きさもさることながら、トップ10に入っているアップル・マイクロソフトが創業から約40年、アマゾンが約25年、グーグルが約20年、フ…</span></span></span>
+
+          <span></span>
         </div>
     </div>
     <div class="clearfix"></div>
