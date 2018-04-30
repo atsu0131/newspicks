@@ -1,6 +1,4 @@
-div {
-display: block;
-}
+
 
 body {
 font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -10,25 +8,24 @@ color: #333;
 background-color: #fff;
 }
 
-nav{
+nav {
 height: 30px;
 }
 
-ul li{
+ul li {
 display: inline-block;
 height: 10px;
 }
 
-input{
+input {
 height: 200px;
 }
 
-p{
-margin-left:50px;
+p {
+margin-left: 50px;
 }
 
 .logo{
-
 color:white;
 }
 
@@ -129,7 +126,6 @@ float:right;
 
 .article{
 height:300px;
-width:630px;
 width: calc( 100% - 300px );
 float:right;
 }
