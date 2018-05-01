@@ -1,175 +1,175 @@
 
 
 body {
-font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-font-size: 14px;
-line-height: 1.42857143;
-color: #333;
-background-color: #fff;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
 }
 
 nav {
-height: 30px;
+    height: 30px;
 }
 
 ul li {
-display: inline-block;
-height: 10px;
+    display: inline-block;
+    height: 10px;
 }
 
 input {
-height: 200px;
+    height: 200px;
 }
 
 p {
-margin-left: 50px;
+    margin-left: 50px;
 }
 
 .logo{
-color:white;
+    color:white;
 }
 
 .margin{
-width:200px;
+    width:200px;
 }
 
 .customer{
-color:white;
+    color:white;
 }
 
 .all{
-height:100%;
-width:100%;
+    height:100%;
+    width:100%;
 }
 
 .header {
-position: fixed;
-height: 50px;
-width: 100%;
-background-color:#15274D;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    background-color:#15274D;
 }
 
 .open-menu{
-color:white;
-height:30px;
-width:80px;
-display: inline-block;
-margin: 0px,50px,0px,0px;
+    color:white;
+    height:30px;
+    width:80px;
+    display: inline-block;
+    margin: 0px,50px,0px,0px;
 }
 
 
 .search__field{
-  float:left;
-  height:50px;
-  width:150px;
-  display: inline-block;
+    float:left;
+    height:50px;
+    width:150px;
+    display: inline-block;
   }
 
 #global-search-box{
-height: 50px;
-width:80px;
+    height: 50px;
+    width:80px;
 }
 
 .follower{
-margin-top:50px;
-height:1000px;
-width:300px;
-float:left;
+    margin-top:50px;
+    height:1000px;
+    width:300px;
+    float:left;
 }
 
 .username{
-width:180px;
-height:100px;
-margin-top:50px;
-margin-left:50px;
+    width:180px;
+    height:100px;
+    margin-top:50px;
+    margin-left:50px;
 }
 
 .human{
-margin-top:50px;
-margin-left:50px;
+    margin-top:50px;
+    margin-left:50px;
 }
 
 .user-follow{
-width:148px;
-height:100px;
-margin-top:50px;
-border: solid 1px #008080;
-float:left;
-display: inline-block;
+    width:148px;
+    height:100px;
+    margin-top:50px;
+    border: solid 1px #008080;
+    float:left;
+    display: inline-block;
 }
 
 .user-folower{
-width:144px;
-height:100px;
-margin-top:50px;
-float:left;
-border: solid 1px #008080;
-display: inline-block;
+    width:144px;
+    height:100px;
+    margin-top:50px;
+    float:left;
+    border: solid 1px #008080;
+    display: inline-block;
 }
 
 .user-news{
-width:300px;
-height:150px;
+    width:300px;
+    height:150px;
 }
 
 .pickup{
-margin-top:50px;
-height:300px;
-width: calc( 100% - 300px );
-float:right;
+    margin-top:50px;
+    height:300px;
+    width: calc( 100% - 300px );
+    float:right;
 }
 
 .article{
-height:300px;
-width: calc( 100% - 300px );
-float:right;
+    height:300px;
+    width: calc( 100% - 300px );
+    float:right;
 }
 .article__left{
-height:500px;
-width:400px;
-float:left;
+    height:500px;
+    width:400px;
+    float:left;
 }
 
 .article__left__detail{
-border: solid 1px #008080;
-float:left;
-height:300px;
-width:350px;
-margin-top:50px;
-margin-left:50px;
+    border: solid 1px #008080;
+    float:left;
+    height:300px;
+    width:350px;
+    margin-top:50px;
+    margin-left:50px;
 }
 .article__left__detail__image{
-float:left;
-height:150px;
-width:350px;
+    float:left;
+    height:150px;
+    width:350px;
 }
 
 .article__right{
-height:500px;
-width:400px;
-float:left;
+    height:500px;
+    width:400px;
+    float:left;
 }
 
 .article__right__detail{
-border: solid 1px #008080;
-float:left;
-height:300px;
-width:350px;
-margin-top:50px;
-margin-left:50px;
+    border: solid 1px #008080;
+    float:left;
+    height:300px;
+    width:350px;
+    margin-top:50px;
+    margin-left:50px;
 }
 
 .article__right__detail__image{
-float:left;
-height:150px;
-width:350px;
+    float:left;
+    height:150px;
+    width:350px;
 }
 
 .clearfix::after {
-height: 50px;
-width: 100%;
-background-color:#15274D;
-content: '';
-display: block;
-clear: both;
+    height: 50px;
+    width: 100%;
+    background-color:#15274D;
+    content: '';
+    display: block;
+    clear: both;
 }
