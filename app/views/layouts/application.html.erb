@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html>
-  <header class="header__new">
-        <div class="header__bar row">
-      <h1 class="grid-6"><a href="/">newspicks</a></h1>
-  </header>
+  <header class="header">
+    <div class="header__bar row">
       <% if user_signed_in? %>
         <div class="user_nav grid-6">
           <%= link_to "ログアウト", destroy_user_session_path, method: :delete %>
@@ -16,8 +14,9 @@
         </div>
       <% end %>
     </div>
+  </header>
 <head>
-
+  
   <link rel="stylesheet" href="article.scss">
   <title>Newspicks</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
