@@ -22,22 +22,22 @@ ul li {
 // }
 
 p {
-    margin-left: 50px;
+    margin-left: 40px;
 }
 
-.logo{
+.logo {
     color:white;
 }
 
-.margin{
-    width:200px;
+.margin {
+    width:350px;
 }
 
-.customer{
+.customer {
     color:white;
 }
 
-.all{
+.all {
     height:100%;
     width:100%;
 }
@@ -49,7 +49,7 @@ p {
     background-color:#15274D;
 }
 
-.open-menu{
+.open-menu {
     color:white;
     height:30px;
     width:80px;
@@ -58,38 +58,37 @@ p {
 }
 
 
-.search__field{
-    float:left;
-    height:50px;
+.search__field {
+    height:70px;
     width:150px;
     display: inline-block;
   }
 
-#global-search-box{
+#global-search-box {
     height: 50px;
     width:80px;
 }
 
-.follower{
+.follower {
     margin-top:50px;
     height:1000px;
     width:300px;
     float:left;
 }
 
-.username{
+.username {
     width:180px;
     height:100px;
     margin-top:50px;
     margin-left:50px;
 }
 
-.human{
+.human {
     margin-top:50px;
-    margin-left:50px;
+    margin-left:0px;
 }
 
-.user-follow{
+.user-follow {
     width:148px;
     height:100px;
     margin-top:50px;
@@ -98,7 +97,7 @@ p {
     display: inline-block;
 }
 
-.user-folower{
+.user-folower {
     width:144px;
     height:100px;
     margin-top:50px;
@@ -107,30 +106,30 @@ p {
     display: inline-block;
 }
 
-.user-news{
+.user-news {
     width:300px;
     height:150px;
 }
 
-.pickup{
+.pickup {
     margin-top:50px;
     height:300px;
     width: calc( 100% - 300px );
     float:right;
 }
 
-.article{
+.article {
     height:300px;
     width: calc( 100% - 300px );
     float:right;
 }
-.article__left{
+.article__left {
     height:500px;
     width:400px;
     float:left;
 }
 
-.article__left__detail{
+.article__left__detail {
     border: solid 1px #008080;
     float:left;
     height:300px;
@@ -138,19 +137,19 @@ p {
     margin-top:50px;
     margin-left:50px;
 }
-.article__left__detail__image{
+.article__left__detail__image {
     float:left;
     height:150px;
     width:350px;
 }
 
-.article__right{
+.article__right {
     height:500px;
     width:400px;
     float:left;
 }
 
-.article__right__detail{
+.article__right__detail {
     border: solid 1px #008080;
     float:left;
     height:300px;
@@ -159,7 +158,7 @@ p {
     margin-left:50px;
 }
 
-.article__right__detail__image{
+.article__right__detail__image {
     float:left;
     height:150px;
     width:350px;
