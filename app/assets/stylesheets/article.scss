@@ -152,11 +152,15 @@ p {
     width: 350px;
 }
 
-.clearfix::after {
+@mixin clearfix__box{
     height: 50px;
     width: 100%;
     background-color: #15274D;
     content: '';
     display: block;
     clear: both;
+}
+
+.clearfix::after {
+    @include clearfix__box;
 }
