@@ -45,8 +45,11 @@
           <span class="article__left__detail">
           <span class="article__left-detail__image">
           <%= image_tag 'business.jpeg' %>
-          <img src="/assets/images/business.jpeg" alt="" ></span>大手銀行で手数料の引き上げ相次ぐビジネスドリブン系 ビジネスデザイナー
-以前はフリーマーケットに出店していたので両替が重要でしたが、今はメルカリのおかげで全く両替することがなく…</span></span>
+          <img src="/assets/images/business.jpeg" alt="" ></span>
+          <%= @articles.each do |article| %>
+          <%= link_to article.body, article %>
+          <% end %>
+          </span></span>
           <span class="article__right">
           <span class="article__right__detail">
           <span class="article__right-detail__image">
