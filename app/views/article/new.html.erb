@@ -1,0 +1,10 @@
+<h1>新規作成</h1>
+
+<%= form_for(@article) do |f| %>
+  <%= f.label :body, 'メッセージ' %>
+  <%= f.text_field :body %>
+
+  <%= f.submit '投稿' %>
+<% end %>
+
+<%= link_to '一覧に戻る', articles_path %>

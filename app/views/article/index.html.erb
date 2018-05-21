@@ -54,7 +54,11 @@
           <span class="article__right__detail">
           <span class="article__right-detail__image">
           <%= image_tag 'business.jpeg' %>
-          <img src="/assets/images/business.jpeg" alt="" ></span>巨大！アメリカの｢株式時価総額｣トップ100S&S investments代表取締役時価総額の大きさもさることながら、トップ10に入っているアップル・マイクロソフトが創業から約40年、アマゾンが約25年、グーグルが約20年、フ…</span></span></span>
+          <img src="/assets/images/business.jpeg" alt="" ></span>
+          <%= @articles.each do |article| %>
+          <%= link_to article.body, article %>
+          <% end %>
+          </span></span></span>
         </div>
     <div class="clearfix"></div>
 </html>
